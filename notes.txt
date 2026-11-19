@@ -1,0 +1,45 @@
+C++ LEARNING NOTES
+==================
+
+Learner:
+Start date:
+Current stage:
+Compiler/version:
+
+How to use this file:
+- Add the date before each session.
+- Write explanations in your own words.
+- Record compiler errors and how you fixed them.
+- Add questions to revisit instead of skipping them.
+- Link each note to the exercise filename.
+
+CONCEPTS I UNDERSTAND
+---------------------
+
+-
+
+CONCEPTS TO REVIEW
+------------------
+
+-
+
+USEFUL COMMANDS
+---------------
+
+cmake -S . -B build
+cmake --build build --config Debug
+
+MISTAKES AND LESSONS
+--------------------
+
+Date:
+Exercise:
+Mistake:
+Cause:
+Fix:
+What I will do differently:
+
+QUESTIONS
+---------
+
+-
