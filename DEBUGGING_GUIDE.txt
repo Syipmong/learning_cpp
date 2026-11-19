@@ -1,0 +1,48 @@
+C++ DEBUGGING PRACTICE
+======================
+
+Use the debugger instead of adding random print statements.
+
+1. Reproduce the problem with the smallest input.
+2. Set a breakpoint before the suspicious operation.
+3. Step one line at a time.
+4. Inspect values, references, and container sizes.
+5. State a hypothesis before changing code.
+6. Make one change and retest.
+7. Keep a regression test for the fixed behavior.
+
+DEBUGGING CHECKLIST
+-------------------
+
+[ ] Can I reproduce the issue?
+[ ] What value is first incorrect?
+[ ] Is the object still alive?
+[ ] Is an index within bounds?
+[ ] Is a condition reversed?
+[ ] Is shared state synchronized?
+[ ] Did I compile with warnings enabled?
+[ ] Did I test the fix with another edge case?
+
+DEBUGGING CHALLENGES
+--------------------
+
+Create a file in 07_engineering/debugging/ for each challenge.
+
+01_off_by_one:
+Print every element of a vector without reading past its end.
+
+02_dangling_reference:
+Find a function returning a reference to a local object. Replace it with a
+safe design and explain the lifetime problem.
+
+03_wrong_accumulator:
+Fix an average calculation that uses integer division.
+
+04_missing_virtual_destructor:
+Fix deletion through a base pointer and explain why the destructor matters.
+
+05_data_race:
+Run a counter with multiple threads under a sanitizer, then synchronize it.
+
+06_exception_cleanup:
+Ensure a file or lock is released when an operation throws.

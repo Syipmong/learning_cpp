@@ -43,4 +43,5 @@ add_lesson(exercise_threads 05_modern/exercises/03_threaded_counter.cpp)
 add_lesson(exercise_maximum 06_templates/exercises/01_maximum.cpp)
 add_lesson(exercise_stack 06_templates/exercises/02_stack.cpp)
 add_lesson(exercise_concepts 06_templates/exercises/03_concepts.cpp)
+add_lesson(solution_greeting 01_fundamentals/solutions/01_greeting_solution.cpp)
 

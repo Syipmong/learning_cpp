@@ -1,0 +1,100 @@
+C++ LEARNING PROGRESS
+=====================
+
+Mark an item [x] only after you can explain and reproduce it without copying.
+
+STAGE 00 - SETUP
+----------------
+[ ] Compiler and CMake installed
+[ ] First program built
+[ ] Breakpoint and debugger tested
+
+STAGE 01 - FUNDAMENTALS
+-----------------------
+[ ] Variables and types
+[ ] Input and output
+[ ] Conditions
+[ ] Loops
+[ ] Functions
+[ ] Number game exercise
+[ ] Calculator mini-project
+
+STAGE 02 - CORE C++
+-------------------
+[ ] References and pointers
+[ ] Strings and vectors
+[ ] Structs and enums
+[ ] Exceptions
+[ ] File input/output
+[ ] Contact list exercise
+[ ] File statistics mini-project
+
+STAGE 03 - OBJECT-ORIENTED C++
+------------------------------
+[ ] Classes and invariants
+[ ] Constructors and destructors
+[ ] RAII
+[ ] Composition
+[ ] Inheritance and virtual functions
+[ ] Smart pointers
+[ ] Bank system mini-project
+
+STAGE 04 - STL
+--------------
+[ ] vector, array, deque
+[ ] map and unordered_map
+[ ] Algorithms
+[ ] Iterators
+[ ] Lambdas
+[ ] Ranges
+[ ] Text search mini-project
+
+STAGE 05 - MODERN C++
+--------------------
+[ ] optional and variant
+[ ] unique_ptr and shared_ptr
+[ ] Move semantics
+[ ] Threads and mutexes
+[ ] jthread and stop_token
+[ ] Futures and async
+[ ] Concurrent log processor
+
+STAGE 06 - TEMPLATES
+--------------------
+[ ] Function templates
+[ ] Class templates
+[ ] Type deduction
+[ ] Concepts
+[ ] constexpr
+[ ] Generic data structure
+
+STAGE 07 - ENGINEERING
+---------------------
+[ ] CMake library target
+[ ] Unit tests
+[ ] Sanitizers
+[ ] Static analysis
+[ ] Formatting
+[ ] Benchmarking
+[ ] Clean build from a new directory
+
+STAGE 08 - ADVANCED
+-------------------
+[ ] Object lifetime and undefined behavior
+[ ] Memory model
+[ ] Allocators
+[ ] Serialization
+[ ] Coroutines
+[ ] ABI and linking
+
+STAGE 09 - PORTFOLIO
+--------------------
+[ ] One beginner project completed
+[ ] One intermediate project completed
+[ ] One advanced project completed
+[ ] Each project has tests and documentation
+[ ] Each project has a public Git history
+
+CURRENT STAGE:
+LAST STUDIED:
+NEXT TARGET:

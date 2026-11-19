@@ -65,3 +65,12 @@ then record what you learned.
 There is no single definition of “expert”. Aim to explain your choices,
 measure performance, write maintainable code, and understand trade-offs.
 
+## Study management
+
+- [PROGRESS.txt](C:/dumps/learning_cpp/PROGRESS.txt) - mark completed skills
+- [STUDY_PLAN_16_WEEKS.txt](C:/dumps/learning_cpp/STUDY_PLAN_16_WEEKS.txt) -
+  suggested schedule
+- [DEBUGGING_GUIDE.txt](C:/dumps/learning_cpp/DEBUGGING_GUIDE.txt) -
+  debugging method and bug challenges
+- Each stage has `exercises`, `solutions`, and `mini-projects` folders.
+

@@ -1,0 +1,33 @@
+C++ 16-WEEK STUDY PLAN
+======================
+
+Study 5 days per week, 45-90 minutes per day. Use the daily template after
+each session. Spend the sixth day reviewing and the seventh day resting.
+
+WEEK 01: Setup, compilation, output, variables, arithmetic
+WEEK 02: Input, conditions, loops, validation
+WEEK 03: Functions, scope, recursion, fundamentals exercises
+WEEK 04: Arrays, strings, vectors, references, pointers
+WEEK 05: Structs, enums, exceptions, file streams
+WEEK 06: Core exercise review and contact-list mini-project
+WEEK 07: Classes, constructors, invariants, const member functions
+WEEK 08: RAII, composition, inheritance, virtual functions
+WEEK 09: STL containers and iterators
+WEEK 10: Algorithms, lambdas, ranges, text-search mini-project
+WEEK 11: optional, variant, smart pointers, move semantics
+WEEK 12: Threads, mutexes, jthread, futures
+WEEK 13: Function/class templates and type deduction
+WEEK 14: Concepts, constexpr, generic data structures
+WEEK 15: CMake libraries, testing, warnings, sanitizers, benchmarks
+WEEK 16: Complete one capstone and write its technical documentation
+
+WEEKLY REVIEW QUESTIONS
+-----------------------
+
+1. What can I explain without looking at notes?
+2. Which compiler error taught me something?
+3. What edge case did I test?
+4. What ownership and lifetime rules does my code use?
+5. What will I implement next week?
+
+Do not rush to the next week if you cannot solve the previous week's exercises.
