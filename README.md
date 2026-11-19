@@ -21,6 +21,16 @@ cmake -S . -B build
 cmake --build build
 ```
 
+For exact beginner instructions, see
+[RUNNING_EXERCISES.txt](C:/dumps/learning_cpp/RUNNING_EXERCISES.txt).
+
+For example, build and run the first exercise on Windows:
+
+```text
+cmake --build build --config Debug --target exercise_greeting
+.\build\Debug\exercise_greeting.exe
+```
+
 Run an individual target from the build output. You can also compile a single
 file while learning:
 

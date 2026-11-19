@@ -1,0 +1,116 @@
+HOW TO RUN AN EXERCISE
+======================
+
+This guide assumes Windows and the repository folder:
+\learning_cpp
+
+OPTION A: CMAKE (RECOMMENDED)
+-----------------------------
+
+1. Open Visual Studio Developer PowerShell or PowerShell.
+2. Move to the repository:
+
+   cd \learning_cpp
+
+3. Configure the project once:
+
+   cmake -S . -B build
+
+4. Build the first exercise:
+
+   cmake --build build --config Debug --target exercise_greeting
+
+5. Run it:
+
+   .\build\Debug\exercise_greeting.exe
+
+6. Edit this file:
+
+   01_fundamentals\exercises\01_greeting.cpp
+
+7. Build and run it again after your changes. The executable is rebuilt from
+   your source file; you do not need to create a second copy.
+
+The first exercise asks for your name. Type a name and press Enter. Try an
+empty name too, then implement the TODO instructions.
+
+BUILD AND RUN OTHER EXERCISES
+-----------------------------
+
+Use the target name shown below:
+
+   cmake --build build --config Debug --target exercise_temperature
+   .\build\Debug\exercise_temperature.exe
+
+   cmake --build build --config Debug --target exercise_number_game
+   .\build\Debug\exercise_number_game.exe
+
+   cmake --build build --config Debug --target exercise_functions
+   .\build\Debug\exercise_functions.exe
+
+The target names for later stages are:
+
+   exercise_vector_stats
+   exercise_word_counter
+   exercise_contact_list
+   exercise_money
+   exercise_bank_account
+   exercise_shapes
+   exercise_student_sort
+   exercise_word_frequency
+   exercise_ranges
+   exercise_optional
+   exercise_unique_ptr
+   exercise_threads
+   exercise_maximum
+   exercise_stack
+   exercise_concepts
+
+Build all examples and exercises at once:
+
+   cmake --build build --config Debug
+
+OPTION B: COMPILE ONE FILE DIRECTLY WITH GCC
+--------------------------------------------
+
+If MinGW-w64 is installed:
+
+   cd \learning_cpp
+   g++ -std=c++20 -Wall -Wextra -Wpedantic 01_fundamentals\exercises\01_greeting.cpp -o greeting.exe
+   .\greeting.exe
+
+OPTION C: COMPILE ONE FILE WITH VISUAL C++
+------------------------------------------
+
+Open Developer PowerShell for Visual Studio:
+
+   cd \learning_cpp
+   cl /std:c++20 /W4 /EHsc 01_fundamentals\exercises\01_greeting.cpp /Fe:greeting.exe
+   .\greeting.exe
+
+The `cl` command may not work in an ordinary PowerShell window. Use the
+Developer PowerShell so the compiler environment is configured.
+
+WHEN THE PROGRAM DOES NOT RUN
+-----------------------------
+
+- `cmake is not recognized`: install CMake and restart the terminal.
+- `cl is not recognized`: open Developer PowerShell for Visual Studio.
+- `g++ is not recognized`: install MinGW-w64 and add its bin folder to PATH.
+- `The system cannot find the path`: confirm you are in
+  \learning_cpp.
+- The program still shows old behavior: build again before running it.
+- The compiler reports a TODO warning: this is expected while an exercise is
+  incomplete. Fix warnings after implementing the exercise.
+
+LEARNING LOOP
+-------------
+
+1. Read the exercise TODOs.
+2. Run the starter program.
+3. Predict what should happen.
+4. Implement one TODO.
+5. Build and run.
+6. Test normal, empty, zero, negative, and very large input where relevant.
+7. Record the result in notes.txt.
+8. Only after trying it yourself, compare with solutions.

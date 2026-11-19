@@ -1,5 +1,8 @@
 # 01 - Fundamentals
 
+For exact commands to build and run each exercise, read
+[RUNNING_EXERCISES.txt](C:/dumps/learning_cpp/RUNNING_EXERCISES.txt) first.
+
 ## Goals
 
 Learn program structure, variables, arithmetic, input/output, conditions,
